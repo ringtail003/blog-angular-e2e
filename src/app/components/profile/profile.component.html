@@ -1,0 +1,24 @@
+<form (submit)="logout()">
+  <header>ようこそ {{ profile?.name }} さん</header>
+
+  <img src="{{ profile?.avator }}" alt="avator" />
+
+  <fieldset>
+    <legend>メールアドレス</legend>
+    <span>{{ profile?.email }}</span>
+  </fieldset>
+
+  <fieldset>
+    <legend>ユーザー名</legend>
+    <span>{{ profile?.name }}</span>
+  </fieldset>
+
+  <fieldset>
+    <legend>最終ログイン</legend>
+    <span>{{ profile?.lastLogin | date: "yyyy-MM-dd hh:mm" }}</span>
+  </fieldset>
+
+  <footer>
+    <button type="submit">ログアウト</button>
+  </footer>
+</form>

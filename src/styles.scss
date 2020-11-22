@@ -1,1 +1,115 @@
-/* You can add global styles to this file, and also import other style files */
+$valid: #42a948;
+$invalid: #d46967;
+$gray: #aaaaaa;
+$label: #413f3f;
+
+.ng-valid:not(form) {
+  border-left: 5px solid $valid;
+}
+
+.ng-invalid:not(form) {
+  border-left: 5px solid $invalid;
+}
+
+header {
+  font-weight: bold;
+  border-bottom: solid 2px $gray;
+  color: $gray;
+  padding-bottom: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+footer {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 1rem 0;
+
+  span {
+    font-size: 0.9rem;
+  }
+}
+
+legend {
+  color: $label;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+input {
+  border-radius: 3px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: $gray;
+  padding: 7px;
+  width: 100%;
+  box-sizing: border-box;
+
+  &::placeholder {
+    color: $invalid;
+  }
+}
+
+button {
+  background: rgb(145, 143, 143);
+  color: white;
+  border-radius: 3px;
+  border-style: none;
+  padding: 7px 10px;
+  cursor: pointer;
+
+  transition-duration: 0.5s;
+  transition-property: background;
+
+  &:hover {
+    background: rgb(110, 109, 109);
+  }
+
+  &[disabled] {
+    background: rgb(211, 209, 209);
+    cursor: not-allowed;
+  }
+}
+
+img {
+  width: 150px;
+  padding: 0 0 1rem 1rem;
+}
+
+form {
+  width: 30rem;
+  border: solid 1px $gray;
+  border-radius: 3px;
+  padding: 2rem;
+  text-align: center;
+
+  div.container {
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+body {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+[role="alert"] {
+  color: $invalid;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+svg {
+  width: 1.5rem;
+}
