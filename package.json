@@ -4,6 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "start:e2e": "ng serve -c e2e",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
