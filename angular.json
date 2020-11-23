@@ -107,7 +107,7 @@
             "tsConfig": [
               "tsconfig.app.json",
               "tsconfig.spec.json",
-              "e2e/tsconfig.json"
+              "e2e/protractor/tsconfig.json"
             ],
             "exclude": ["**/node_modules/**"]
           }
@@ -115,8 +115,8 @@
         "e2e": {
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
-            "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "blog-angular-e2e:serve"
+            "protractorConfig": "e2e/protractor/conf.js",
+            "devServerTarget": "blog-angular-e2e:serve:e2e"
           },
           "configurations": {
             "production": {
