@@ -108,7 +108,8 @@
               "tsconfig.app.json",
               "tsconfig.spec.json",
               "e2e/protractor/tsconfig.json",
-              "e2e/puppeteer/tsconfig.json"
+              "e2e/puppeteer/tsconfig.json",
+              "e2e/cypress/tsconfig.json"
             ],
             "exclude": ["**/node_modules/**"]
           }
