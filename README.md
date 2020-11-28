@@ -1,12 +1,6 @@
-<img src="https://img.shields.io/badge/Node-v14-339933.svg?logo=Node.js">
+<img src="https://img.shields.io/badge/Node-v14-339933.svg?logo=Node.js"> <img src="https://img.shields.io/badge/Angular-v11-dd0031.svg?logo=Angular">
 
-<img src="https://img.shields.io/badge/Angular-v11-dd0031.svg?logo=Angular">
-
-<img src="https://img.shields.io/badge/Protractor-v7-17202C.svg">
-
-<img src="https://img.shields.io/badge/puppeteer-v5-17202C.svg">
-
-<img src="https://img.shields.io/badge/Cypress-v6-17202C.svg">
+<img src="https://img.shields.io/badge/Protractor-v7-17202C.svg"> <img src="https://img.shields.io/badge/puppeteer-v5-17202C.svg"> <img src="https://img.shields.io/badge/Cypress-v6-17202C.svg">
 
 https://qiita.com/advent-calendar/2020/angular
 2 日目の記事のソースコードです。
